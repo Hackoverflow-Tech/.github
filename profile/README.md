@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="profile/HO.png" alt="HackOverflow Logo" width="200"/>
+<img src="HO.png" alt="HackOverflow Logo" width="200"/>
 
 # HackOverflow 4.0
 
