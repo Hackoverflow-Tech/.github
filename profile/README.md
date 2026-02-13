@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="profile/HO.png" alt="HackOverflow Logo" width="200"/>
+<img src="HO.png" alt="HackOverflow Logo" width="200"/>
 
 # HackOverflow 4.0
 
@@ -11,9 +11,9 @@
 <img src="https://img.shields.io/badge/250+_Hackers-D91B57?style=for-the-badge&labelColor=0F0F0F" alt="Participants"/>
 <img src="https://img.shields.io/badge/50+_Colleges-63205F?style=for-the-badge&labelColor=0F0F0F" alt="Reach"/>
 
-[![Website](https://img.shields.io/badge/🌐_hackoverflow4.tech-FCB216?style=for-the-badge&labelColor=0F0F0F)](https://hackoverflow4.tech)
-[![Discord](https://img.shields.io/badge/💬_Discord-E85D24?style=for-the-badge&labelColor=0F0F0F)](https://discord.gg/BbUgSpZDUd)
-[![Instagram](https://img.shields.io/badge/📸_Instagram-D91B57?style=for-the-badge&labelColor=0F0F0F)](https://instagram.com/hackoverflow_tech)
+[![Website](https://img.shields.io/badge/Website-hackoverflow4.tech-FCB216?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=0F0F0F)](https://hackoverflow4.tech)
+[![Discord](https://img.shields.io/badge/Discord-Community-E85D24?style=for-the-badge&logo=discord&logoColor=white&labelColor=0F0F0F)](https://discord.gg/BbUgSpZDUd)
+[![Instagram](https://img.shields.io/badge/Instagram-@hackoverflow__tech-D91B57?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0F0F0F)](https://instagram.com/hackoverflow_tech)
 
 **Organized by Pillai HOC College of Engineering & Technology**
 
@@ -21,20 +21,20 @@
 
 ---
 
-## 📋 Overview
+## ▸ Overview
 
 HackOverflow 4.0 is a **36-hour national-level hackathon** bringing together 250+ developers, designers, and innovators from 50+ institutions across 12 states. The event focuses on AI/ML, Blockchain, Web Development, IoT, and open innovation.
 
 **Key Statistics:**
-- 🏆 4th Edition (2023-2026)
-- 💰 ₹100,000+ Prize Pool
-- 🎯 95% Project Completion Rate
-- ⭐ 4.9/5 Participant Satisfaction
-- 🚀 18+ Project Deployments per Edition
+- **▸** 4th Edition (2023-2026)
+- **▸** ₹100,000+ Prize Pool
+- **▸** 95% Project Completion Rate
+- **▸** 4.9/5 Participant Satisfaction
+- **▸** 18+ Project Deployments per Edition
 
 ---
 
-## 🛠️ Tech Stack
+## ▸ Tech Stack
 
 Our event infrastructure is built using modern, scalable technologies:
 
@@ -64,7 +64,7 @@ Our event infrastructure is built using modern, scalable technologies:
 
 ---
 
-## 🏗️ System Architecture
+## ▸ System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -114,29 +114,29 @@ Our event infrastructure is built using modern, scalable technologies:
 
 ---
 
-## 📦 Repository Structure
+## ▸ Repository Structure
 
 This organization hosts multiple interconnected systems for event management:
 
-### 🌐 [Hackoverflow](https://github.com/Hackoverflow-Tech/Hackoverflow) (Website)
+### ◆ [Hackoverflow](https://github.com/Hackoverflow-Tech/Hackoverflow) (Website)
 Official event website built with Next.js 16 App Router, featuring dynamic content, responsive design, and optimized performance.
 
 **Tech:** Next.js, React 18, TypeScript, Tailwind CSS, Framer Motion  
 **Features:** Event information, registration portal, schedule, statistics, gallery
 
-### ✅ [Hackoverflow-Checkin](https://github.com/Hackoverflow-Tech/Hackoverflow-Checkin)
+### ◆ [Hackoverflow-Checkin](https://github.com/Hackoverflow-Tech/Hackoverflow-Checkin)
 Real-time participant check-in system with dual-stage verification (college & lab).
 
 **Tech:** Next.js, MongoDB, Server Actions, Zod validation  
 **Features:** QR scanning, real-time updates, rate limiting, type-safe operations
 
-### 🤖 [Hackoverflow-Bot](https://github.com/Hackoverflow-Tech/Hackoverflow-Bot)
+### ◆ [Hackoverflow-Bot](https://github.com/Hackoverflow-Tech/Hackoverflow-Bot)
 AI-powered Discord bot with natural language Q&A and automated scheduling.
 
 **Tech:** Discord.js v14, Groq AI, TypeScript, node-cron  
 **Features:** AI Q&A, scheduled announcements, event reminders, FAQ automation
 
-### 🎛️ Hackoverflow-Dashboard (Private)
+### ◆ Hackoverflow-Dashboard (Private)
 Unified admin dashboard for participant management, email campaigns, and analytics.
 
 **Tech:** Next.js, MongoDB, JWT Auth, Nodemailer, jsPDF  
@@ -144,33 +144,33 @@ Unified admin dashboard for participant management, email campaigns, and analyti
 
 ---
 
-## 🔐 Security Features
+## ▸ Security Features
 
 Enterprise-grade security implemented across all systems:
 
-- **Authentication:** JWT-based stateless auth with HTTP-only cookies
-- **Rate Limiting:** Sliding window algorithm (per-IP tracking)
-- **Input Validation:** Zod schema validation on all inputs
-- **Security Headers:** XSS protection, clickjacking prevention, CSRF protection
-- **Audit Logging:** Login/logout events, error tracking
-- **Database Security:** Connection pooling, parameterized queries
-- **API Protection:** Rate limiting on all endpoints (3-100 req/min depending on endpoint)
+- **▸ Authentication:** JWT-based stateless auth with HTTP-only cookies
+- **▸ Rate Limiting:** Sliding window algorithm (per-IP tracking)
+- **▸ Input Validation:** Zod schema validation on all inputs
+- **▸ Security Headers:** XSS protection, clickjacking prevention, CSRF protection
+- **▸ Audit Logging:** Login/logout events, error tracking
+- **▸ Database Security:** Connection pooling, parameterized queries
+- **▸ API Protection:** Rate limiting on all endpoints (3-100 req/min depending on endpoint)
 
 ---
 
-## 🎯 Event Domains
+## ▸ Event Domains
 
 | Domain | Technologies | Project Distribution |
 |:------:|:------------:|:-------------------:|
-| 🌐 **Web Development** | React, Next.js, Node.js, Full-stack | 30% |
-| 🤖 **AI/ML** | TensorFlow, PyTorch, NLP, Computer Vision | 30% |
-| ⛓️ **Blockchain** | Solidity, Web3.js, Smart Contracts, DeFi | 15% |
-| 📱 **IoT** | Arduino, Raspberry Pi, Sensors, Edge Computing | 15% |
-| 🎨 **Open Innovation** | Any tech stack, Cross-domain solutions | 10% |
+| **Web Development** | React, Next.js, Node.js, Full-stack | 30% |
+| **AI/ML** | TensorFlow, PyTorch, NLP, Computer Vision | 30% |
+| **Blockchain** | Solidity, Web3.js, Smart Contracts, DeFi | 15% |
+| **IoT** | Arduino, Raspberry Pi, Sensors, Edge Computing | 15% |
+| **Open Innovation** | Any tech stack, Cross-domain solutions | 10% |
 
 ---
 
-## 📊 Event Timeline
+## ▸ Event Timeline
 
 ```
 Dec 25, 2025  →  Registration Opens
@@ -182,7 +182,7 @@ Mar 13, 2026  →  Day 3: Final Judging & Winner Announcement
 
 ---
 
-## 📈 Analytics & Metrics
+## ▸ Analytics & Metrics
 
 **Historical Performance (2023-2025):**
 ```
@@ -197,57 +197,57 @@ Colleges Participated:  50+
 ```
 
 **Impact Metrics:**
-- 🎓 Mentorship Sessions: 15+ per edition
-- 🏆 Winning Teams: 3 per edition (1st, 2nd, 3rd place)
-- 🤝 Industry Partners: 10+ sponsors per year
-- 📧 Email Campaigns: 5000+ emails sent
-- ⭐ Average Satisfaction: 4.9/5
+- **▸** Mentorship Sessions: 15+ per edition
+- **▸** Winning Teams: 3 per edition (1st, 2nd, 3rd place)
+- **▸** Industry Partners: 10+ sponsors per year
+- **▸** Email Campaigns: 5000+ emails sent
+- **▸** Average Satisfaction: 4.9/5
 
 ---
 
-## 🤝 Sponsorship & Partnerships
+## ▸ Sponsorship & Partnerships
 
 **Opportunities for Industry Partners:**
 
-- 🎯 Brand visibility to 500+ tech innovators
-- 🤝 Direct talent pipeline from 50+ engineering colleges
-- 📢 Marketing exposure across campuses nationwide
-- 🚀 Early access to innovative project ideas
-- 🌟 Community impact & CSR initiatives
-- 📊 Thought leadership positioning
+- **▸** Brand visibility to 500+ tech innovators
+- **▸** Direct talent pipeline from 50+ engineering colleges
+- **▸** Marketing exposure across campuses nationwide
+- **▸** Early access to innovative project ideas
+- **▸** Community impact & CSR initiatives
+- **▸** Thought leadership positioning
 
 **Contact:** [hackoverflow@mes.ac.in](mailto:hackoverflow@mes.ac.in)  
 **Brochure:** [Download Sponsorship Deck](https://hackoverflow4.tech)
 
 ---
 
-## 🔗 Links & Resources
+## ▸ Links & Resources
 
 | Resource | URL |
 |:--------:|:---:|
-| 🌐 Official Website | [hackoverflow4.tech](https://hackoverflow4.tech) |
-| 💬 Discord Community | [discord.gg/BbUgSpZDUd](https://discord.gg/BbUgSpZDUd) |
-| 📸 Instagram | [@hackoverflow_tech](https://instagram.com/hackoverflow_tech) |
-| 📧 Email | [hackoverflow@mes.ac.in](mailto:hackoverflow@mes.ac.in) |
-| 📍 Venue | PHCET, Rasayani, Raigad, Maharashtra - 410207 |
+| **Website** | [hackoverflow4.tech](https://hackoverflow4.tech) |
+| **Discord** | [discord.gg/BbUgSpZDUd](https://discord.gg/BbUgSpZDUd) |
+| **Instagram** | [@hackoverflow_tech](https://instagram.com/hackoverflow_tech) |
+| **Email** | [hackoverflow@mes.ac.in](mailto:hackoverflow@mes.ac.in) |
+| **Venue** | PHCET, Rasayani, Raigad, Maharashtra - 410207 |
 
 ---
 
-## 🎓 Organized By
+## ▸ Organized By
 
 **Pillai HOC College of Engineering & Technology (PHCET)**  
 A premier institution fostering innovation and excellence in engineering education.
 
-- 🏫 14-acre campus with state-of-the-art facilities
-- 🔬 Advanced labs for IoT, AI/ML, and Blockchain development
-- 👨‍🏫 Expert faculty from academia and industry
-- 📚 Rich technical library and resources
+- **▸** 14-acre campus with state-of-the-art facilities
+- **▸** Advanced labs for IoT, AI/ML, and Blockchain development
+- **▸** Expert faculty from academia and industry
+- **▸** Rich technical library and resources
 
 **Location:** Rasayani, Raigad, Maharashtra, India
 
 ---
 
-## 📄 Documentation
+## ▸ Documentation
 
 Each repository contains detailed documentation:
 - Architecture diagrams
@@ -260,7 +260,7 @@ Refer to individual repository READMEs for technical details.
 
 ---
 
-## 🐛 Issues & Contributions
+## ▸ Issues & Contributions
 
 For technical issues, feature requests, or contributions:
 1. Open an issue in the relevant repository
